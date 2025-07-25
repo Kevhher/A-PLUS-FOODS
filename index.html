@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Plus Foods</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #d4ffd4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: #00ff00;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00ff00;
+      margin-top: 40px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product {
+      width: 220px;
+      border: 2px solid #00ff00;
+      border-radius: 10px;
+      background: #1a1a1a;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #00ff00;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #ccc;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>A Plus Foods</h1>
+    <p>Sweeten your day the Q-Yamell way!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Our Candy Line</h2>
+      <div class="products">
+        <div class="product">
+          <img src="qyamell1.jpg" alt="Q-Yamell Rose and Heart Lollipops" />
+          <p>Q-Yamell Rose & Heart Lollipops</p>
+        </div>
+        <div class="product">
+          <img src="qyamell2.jpg" alt="Q-Yamell Summer Lollipops" />
+          <p>Q-Yamell Summer Lollipops</p>
+        </div>
+        <div class="product">
+          <img src="qyamell3.jpg" alt="Q-Yamell Fruit Lollipops" />
+          <p>Q-Yamell Fruit Lollipops</p>
+        </div>
+        <div class="product">
+          <img src="qyamell4.jpg" alt="Q-Yamell Squishy Licious" />
+          <p>Q-Yamell Squishy Licious</p>
+        </div>
+        <div class="product">
+          <img src="qyamell5.jpg" alt="Q-Yamell Rocket Candy" />
+          <p>Q-Yamell Rocket Candy</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>Email: 
+        <a href="mailto:Aplusfoodsincusa@outlook.com">Aplusfoodsincusa@outlook.com</a><br />
+        <a href="mailto:kevinhernandez@aplusfoods.net">kevinhernandez@aplusfoods.net</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 A Plus Foods, Inc. All rights reserved.
+  </footer>
+
+</body>
+</html>
